@@ -2,11 +2,11 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-import statsmodels
+#import statsmodels
 from datetime import datetime, timedelta
 from datetime import date
 
-with open('Shopkeeper.json', 'rb') as f:
+with open('Shopkeeper', 'rb') as f:
     lr = pickle.load(f)
 
 pred_val=lr.predict(start=247,end=247+30)
