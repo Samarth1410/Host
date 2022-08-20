@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 from datetime import date
 
-with open('https://raw.githubusercontent.com/Samarth1410/Host/main/Shopkeeper', 'rb') as f:
+with open('Shopkeeper.json', 'rb') as f:
     lr = pickle.load(f)
 
 pred_val=lr.predict(start=247,end=247+30)
