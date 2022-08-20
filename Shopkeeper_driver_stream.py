@@ -6,7 +6,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 from datetime import date
 
-with open('Shopkeeper', 'rb') as f:
+with open("Shopkeeper", 'rb') as f:
     lr = pickle.load(f)
 
 pred_val=lr.predict(start=247,end=247+30)
