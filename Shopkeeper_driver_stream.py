@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-from statsmodels.tsa.arima_process import ArmaProcess
+import statsmodels
 from datetime import datetime, timedelta
 from datetime import date
 
